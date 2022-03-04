@@ -11,7 +11,7 @@ const cors = require('cors');
 connectDB();
 
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://health-system.netlify.app",
   credentials:true,     
   optionSuccessStatus:200
 }))
